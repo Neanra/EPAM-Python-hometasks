@@ -1,0 +1,3 @@
+pwd
+
+/media/julia/C84896A548969234/Education/Data_Science/Python/EPAM/submissions/Linux

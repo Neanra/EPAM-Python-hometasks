@@ -1,0 +1,76 @@
+ls -l /
+
+total 76
+lrwxrwxrwx   1 root root     7 кві 18 19:49 bin -> usr/bin
+drwxr-xr-x   4 root root  4096 кві 18 20:27 boot
+drwxr-xr-x   2 root root  4096 кві 18 19:53 cdrom
+drwxr-xr-x  20 root root  4660 кві 18 20:39 dev
+drwxr-xr-x 140 root root 12288 кві 18 20:26 etc
+drwxr-xr-x   3 root root  4096 кві 18 19:53 home
+lrwxrwxrwx   1 root root     7 кві 18 19:49 lib -> usr/lib
+lrwxrwxrwx   1 root root     9 кві 18 19:49 lib32 -> usr/lib32
+lrwxrwxrwx   1 root root     9 кві 18 19:49 lib64 -> usr/lib64
+lrwxrwxrwx   1 root root    10 кві 18 19:49 libx32 -> usr/libx32
+drwx------   2 root root 16384 кві 18 19:49 lost+found
+drwxr-xr-x   3 root root  4096 кві 18 20:08 media
+drwxr-xr-x   2 root root  4096 лип 31  2020 mnt
+drwxr-xr-x   2 root root  4096 лип 31  2020 opt
+dr-xr-xr-x 296 root root     0 кві 18 20:39 proc
+drwx------   4 root root  4096 кві 18 20:09 root
+drwxr-xr-x  35 root root   920 кві 18 20:40 run
+lrwxrwxrwx   1 root root     8 кві 18 19:49 sbin -> usr/sbin
+drwxr-xr-x   7 root root  4096 кві 18 20:09 snap
+drwxr-xr-x   2 root root  4096 лип 31  2020 srv
+dr-xr-xr-x  13 root root     0 кві 18 20:39 sys
+drwxrwxrwt  16 root root  4096 кві 18 21:12 tmp
+drwxr-xr-x  14 root root  4096 лип 31  2020 usr
+drwxr-xr-x  14 root root  4096 лип 31  2020 var
+
+
+ls
+
+output_1a.txt
+output_1b.txt
+
+
+ls /home/julia
+
+anaconda3
+Desktop
+Documents
+Downloads
+Music
+Pictures
+Public
+snap
+Templates
+Videos
+
+
+ls -l
+
+total 5
+-rwxrwxrwx 1 julia julia   88 кві 18 21:11 output_1a.txt
+-rwxrwxrwx 1 julia julia 1478 кві 18 21:16 output_1b.txt
+
+
+ls -a
+
+.
+..
+output_1a.txt
+output_1b.txt
+
+
+ls -la
+
+total 13
+drwxrwxrwx 1 julia julia  272 кві 18 21:12 .
+drwxrwxrwx 1 julia julia 8192 кві 18 21:07 ..
+-rwxrwxrwx 1 julia julia   88 кві 18 21:11 output_1a.txt
+-rwxrwxrwx 1 julia julia 1654 кві 18 21:18 output_1b.txt
+
+
+ls -lda /home/julia
+
+drwxr-xr-x 20 julia julia 4096 кві 18 21:04 /home/julia
